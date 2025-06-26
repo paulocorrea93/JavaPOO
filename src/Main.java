@@ -7,6 +7,8 @@ public class Main {
         Produto celular = new Produto("Motorola", 2000.00);
         Livros lotr = new Livros("Tolkien", "Lord of the Rings", 1973);
         ContaBancaria paulo = new ContaBancaria("Pauuulo", 2500);
+        Pet dog = new Pet("Osvaldo", "Cachorro", 5);
+        Retangulo quad = new Retangulo(50,50);
 
         pessoa1.mensagem();
         aluno1.mostrarAluno();
@@ -21,6 +23,11 @@ public class Main {
         paulo.depositar(300);
         paulo.exibirSaldo();
         paulo.sacar(3000);
+        dog.mostrar();
+        dog.envelhecer();
+        dog.mostrar();
+        quad.dimensoes();
+        System.out.println(quad.area());
 
     }
 
