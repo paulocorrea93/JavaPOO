@@ -33,6 +33,21 @@ public class Main {
 
         pg.mostrarInfosFuncionario();
 
+        Carro creta = new Carro();
+
+        creta.marca = "creta";
+        creta.velocidade = 60.0;
+
+        creta.mostrarStatus();
+
+        creta.acelerar(40.0);
+
+        creta.mostrarStatus();
+
+        creta.frear(20);
+
+        creta.mostrarStatus();
+
     }
 
 }
