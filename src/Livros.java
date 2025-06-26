@@ -2,10 +2,19 @@ public class Livros {
 
     String autor;
     String titulo;
+    int ano;
 
-    public void infoLivro(){
-        System.out.println("Autor: " + autor);
-        System.out.println("Titulo: " + titulo);
+
+    Livros(String autor, String titulo, int ano){
+        this.titulo = titulo;
+        this.autor = autor;
+        this.ano = ano;
     }
+
+    void infoLivro(){
+        System.out.println("'" + titulo + "' por: " + autor + ". Escrito em: " + ano + ".");
+    }
+
+
 
 }
