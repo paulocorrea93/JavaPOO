@@ -17,6 +17,11 @@ public class Main {
 //        pg.exibirInfo();
 //        pg.setSalario(-1000);
 
+        Usuario novoUser = new Usuario("Paulo", "paulocorreapc93@gmail.com", "1234");
+        novoUser.mostrarUsuario();
+        novoUser.setSenha("456654");
+        novoUser.mostrarUsuario();
+
     }
 
 }
