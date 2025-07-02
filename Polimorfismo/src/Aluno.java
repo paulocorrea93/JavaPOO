@@ -1,7 +1,8 @@
-public class Aluno extends Pessoa {
+public class Aluno extends Pessoa2 {
 
-    public void estudar(){
-        System.out.println("O aluno " + nome + " está estudando.");
+    public Aluno(String nome){
+        super(nome);
+        System.out.println("Aluno criado: " + nome);
     }
 
 }
