@@ -1,10 +1,15 @@
 public class Pessoa {
 
     String nome;
+    int idade;
 
-    public Pessoa(String nome){
+    public Pessoa(String nome, int idade){
         this.nome = nome;
-        System.out.println("Olá, meu nome é: " + nome);
+        this.idade = idade;
+    }
+
+    public void apresentar(){
+        System.out.println("Bem-vindo: " + nome);
     }
 
 }
