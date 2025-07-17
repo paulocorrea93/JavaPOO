@@ -22,6 +22,12 @@ public class Main{
 
         tarefa.exibir("Garantido campeão", 4);
 
+        Carro c1 = new Carro();
+        Bike b1 = new Bike();
+
+        b1.mover();
+        c1.mover();
+
     }
 
 }
